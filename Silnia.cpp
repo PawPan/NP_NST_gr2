@@ -1,4 +1,5 @@
 //Silnia.cpp
+//Program powstal w celu cwiczenia commitow
 #include <iostream>
 #include "funkcje.h"
 #include "funkcje.cpp"
