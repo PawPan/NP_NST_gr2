@@ -13,11 +13,11 @@ int main(int argc, char** argv) {
 	long b=n;
 	double d=n;
 	
-	globInt = silInt(a);
+	zmiennaGlobalnaInt = silInt(a);
 	globLong = silLong(b);
 	globDoub = silDouble(d);
 	
-	cout<<n<<"!(int) = "<<globInt<<endl;
+	cout<<n<<"!(int) = "<<zmiennaGlobalnaInt<<endl;
 	cout<<n<<"!(long) = "<<globLong<<endl;
 	cout<<n<<"!(double) = "<<globDoub<<endl;
 	return 0;
@@ -54,7 +54,7 @@ double silDouble(double a)
 #ifndef FUNKCJE_H_INCLUDED
 #define FUNKCJE_H_INCLUDED
 
-int globInt;
+int zmiennaGlobalnaInt;
 long globLong;
 double globDoub;
 
