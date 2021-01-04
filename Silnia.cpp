@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
 
 	n+=1;
 
-	int a=0;
+	int a=n;
 	long b=n;
 	double d=n;
 
