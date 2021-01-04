@@ -24,8 +24,6 @@ int main(int argc, char** argv) {
 	cout<<"Podaj n: ";
 	cin>>n;
 
-	n+=1;
-
 	int a=n;
 	long b=n;
 	double d=n;
