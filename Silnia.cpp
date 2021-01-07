@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 
 	zmiennaGlobalnaInt = silInt(a);
 	globLong = silLong(b);
-	globDoub = silDouble(d);
+	globDoub = silDouble(d-2);
 
 	cout<<n<<"!(int) = "<<zmiennaGlobalnaInt<<endl;
 	cout<<n<<"!(long) = "<<globLong<<endl;
