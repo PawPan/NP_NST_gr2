@@ -45,8 +45,8 @@ int main(int argc, char** argv) {
 
 int silInt(int a)
 {
-	if(a<2)
-        return 1;
+	if(a>2)
+        return 0;
 
 	return a*silInt(a-1);
 }
