@@ -12,7 +12,7 @@ double silDouble(double a);
 //#endif
 
 //Silnia.cpp
-//Program powstal w celu cwiczenia commitow. A teraz spróbujemy doprowadzić do konfliktu w tym wierszu.
+//Program powstal w celu cwiczenia commitow. A teraz spróbujemy doprowadzić do konfliktu w tym wierszu. Robimy konflikt
 
 #include <iostream>
 //#include "funkcje.h"
