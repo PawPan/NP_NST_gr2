@@ -43,12 +43,12 @@ int main(int argc, char** argv) {
 //#include "funkcje.h"
 //using namespace std;
 
-int silInt(int a)
+int silInt(int b)
 {
 	if(a<2)
-        return 1;
+        return 0;
 
-	return a*silInt(a-1);
+	return a*silInt(a-2);
 }
 long silLong(long a)
 {
